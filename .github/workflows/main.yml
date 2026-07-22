@@ -1,14 +1,14 @@
 name: Fahad ALi
 
 on:
-    push: 
-      branches: [ main ]
+  push:
+    branches:
+      - main
 
 jobs:
-    demo: 
+  demo:
     runs-on: ubuntu-latest
 
-     steps: 
-     -name: Greetings
-     run: echo "hello from fahad"
-    
+    steps:
+      - name: Greetings
+        run: echo "Hello from Fahad"
